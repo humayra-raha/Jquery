@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.clr{
+    clear: both;
+}
+
+full-wrapper{
+    width: 100%;
+    text-align: center;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/*common css ends*/
+
+.menu-bg{
+    width: 100%;
+/*    background: #f01919;*/
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    transition: all linear .4s;
+/*    text-align: center;*/
+/*    margin: 0 auto;*/
+}
+.bg{
+    width: 100%;
+    background: #333;
+    animation: sticky 1s linear;
+}
+@keyframes sticky{
+    0%{
+        top: -60px;
+    }
+    100%{
+        top: 0;
+    }
+}
+.menu-bg .menu{
+/*    background: #a3abcc;*/
+    display: flex;
+    flex-direction: row;
+/*    margin: 0 auto;*/
+}
+.menu-bg .menu .logo{
+    width: 200px;
+    padding: 20px 0;
+}
+.menu-bg .menu .logo a{
+    font-size: 26px;
+    color: white;
+    
+}
+.menu-bg .menu .menu-list{
+    width: 970px;
+/*    background: #7de*/
+}
+.menu-bg .menu .menu-list ul{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.menu-bg .menu .menu-list ul li a{
+    display: block;
+    line-height: 60px;
+    padding: 0 15px;
+    text-transform: capitalize;
+    font-size: 24px;
+    color: white;
+}
+/*menu ends*/
+
+.banner-bg{
+    background: url(../images/cover.png) no-repeat center / cover;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+.banner-bg::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.60);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.banner-bg .banner{
+    text-align: center;
+}
+.banner-bg .banner h1{
+    font-size: 72px;
+    color: #fff;
+    z-index: 1;
+}
+/*banner ends*/
+
+.about-bg{
+    padding: 100px 0;
+}
+.about-bg .about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about-bg .about .about-img{
+    width: 570px;
+}
+.about-bg .about .about-img img{
+    width: 100%;
+}
+.about-bg .about .about-text{
+    width: 570px;
+    
+}
+.about-bg .about .about-text h4{
+    padding: 20px 0;
+}
+.about-bg .about .about-text p{
+    text-align: justify;
+    padding-bottom: 20px;
+}
+/*About ends*/
+
+.blog-bg{
+    background: #e6f575;
+    padding: 200px 0;
+    margin-bottom: 100px;
+}
+/*blog ends*/
+
+
+.test-bg{
+    background: #75f5eb;
+    padding: 200px 0;
+    margin-bottom: 100px;
+}
+/*blog ends*/
+
+
+.contact-bg{
+    background: #e6f575;
+    padding: 200px 0;
+    margin-bottom: 100px;
+}
+/*blog ends*/
+
+.back-to-top{
+    width: 40px;
+    height: 40px;
+    background: #333;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: none;
+    z-index: 9999;
+}
+.back-to-top i{
+    width: 40px;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center; 
+}
+/*back-to-top ends*/
+
+.main-box-bg{
+    padding-bottom: 100px;
+}
+.main-box-bg button{
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 0 30px;
+    background: #fabd02;
+    color: white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+.main-box-bg .main-box{
+    width: 600px;
+    height: 500px;
+    border: 5px solid #064186;
+/*    box-sizing: border-box;*/
+    position: relative;
+}
+.main-box-bg .main-box .box{
+    width: 50px;
+    height: 50px;
+    background: #e84e16;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/*Box ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
